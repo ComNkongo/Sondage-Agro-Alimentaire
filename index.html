@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NKONGÔ | Sondage Agroalimentaire dans le G8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class= container >
+        <h1>NKONGÔ</h1>
+        <h5>Collectif Citoyen pour la Lutte contre la Vie Chère dans l’Ogooué-Maritime</h5>
+    
+        <div class= logo >
+            <img src="img/Logo Final 2.png" alt="Logo de NKONGÔ">
+        </div>
+    
+        <h2>Sondage sur l’Agro-alimentaire dans L'Ogooué-Maritime</h2>
+        <h5>Objectif : Ce sondage vise à mieux comprendre les habitudes de consommation, les préférences et les attentes des citoyens en matière de produits agroalimentaires dans l’Ogooué-Maritime.</h5>
+    
+        <form action="https://formspree.io/f/xgvollka" method= POST >
+            <div class= form-group >
+                <h4>1/ Informations générales</h4>
+                <label for= issue >Age</label>
+                <select id= issue  name= "âge du consommateur" >
+                    <option value= 18-25 ansname="18-25 ans ">18-25 ans </option>
+                    <option value= 26-35 ans name="26-35 ans ">26-35 ans </option>
+                    <option value= 36-50 ans name="36-50 ans ">36-50 ans </option>
+                    <option value= plus de 50 ans name="plus de 50 ans ">plus de 50 ans </option>
+                </select>
+                <label for= issue >Genre</label>
+                <select id= issue  name= "Genre" >
+                    <option value= Homme name="Homme">Homme</option>
+                    <option value= Femme name="Femme ">Femme </option>
+                </select>
+            </div>
+    
+            <div class= form-group >
+                <label for= geolocalisation >Arrondissement/Commune/District :</label>
+                <input type= text  id= geolocalisation  name= "Géolocalisation de l'éméteur"  placeholder= "votre Arrondissement/Commune/District :" required>
+            </div>
+    
+            <div class= form-group >
+                <label for= quartier >Quartier :</label>
+                <input type= text  id= qaurtier  name= "Quartier de l'éméteur"  placeholder= "votre quartier" required>
+            </div>
+            <div class= form-group >
+                <label for= address >Téléphone :</label>
+                <input type= number  id= phone  name= "Téléphone de l'éméteur"  placeholder= "votre numéro de Téléphone" required>
+            </div>
+            <div class= form-group >
+                <label for= address >Adresse e-mail :</label>
+                <input type= email  id= address  name= "E-mail de l'éméteur"  placeholder= "votre adresse e-mail" required>
+            </div>
+    
+      
+            <div class= form-group >
+                <h4>Habitudes de consommation</h4>
+                <label for= consommation>À quelle fréquence consommez-vous des produits locaux ?</label>
+                <select name="qualite_electricite">
+                    <option value= Tous les jours name="Tous les jours">Tous les jours</option>
+                    <option value= Plusieurs fois par semaine name="Plusieurs fois par semaine"> Plusieurs fois par semaine</option>
+                    <option value= Rarement name="Rarement">Rarement</option>
+                    <option value= Jamais name="Jamais">Jamais</option>
+                </select>
+                <label>Quels types de produits locaux consommez-vous le plus ?</label>
+                <select id= damaged-devices  name= "choix des produits"  multiple>
+                    <option value= Fruits et légumes  >Fruits et légumes </option>
+                    <option value= Viande et poisson  >Viande et poisson </option>
+                    <option value= Produits transformés (jus, conserves, etc.) >Produits transformés (jus, conserves, etc.) </option>
+                    <option value= Céréales et tubercules >Céréales et tubercules</option>
+                </select>
+            </div>
+    
+            <label>Où achetez-vous principalement vos produits alimentaires ?</label>
+            <label>(Fournisseurs des produits :)</label>
+            <select name="évaluation des produits locaux">
+                <option>Marché local </option>
+                <option>Supermarché</option>
+                <option>Magasin spécialisé</option>
+                <option>Dans mes champs</option>
+                <option>En ligne</option>
+            </select>
+            <label>Perception des produits locaux</label>
+            <label>Comment évaluez-vous la qualité des produits locaux ?</label>
+            <select name="qualité des produits locaux">
+                <option>Excellente</option>
+                <option>Bonne</option>
+                <option>Moyenne</option>
+                <option>Mauvaise</option>
+            </select>
+            <div class= form-group >
+                <label for= améliorations >Selon vous, quels sont les principaux freins à la consommation de produits locaux ?</label>
+                <select id= damaged-devices  name= "choix des freins"  multiple>
+                    <option value= Prix élevé>Prix élevé </option>
+                    <option value= Manque de disponibilité  >Manque de disponibilité </option>
+                    <option value= Qualité insuffisante  >Qualité insuffisante </option>
+                    <option value= Manque d’information>Manque d’informations</option>
+                    <option value= autre >Autre (précisez dans les commentaires)</option>
+                </select>
+            </div>
+            <h4>Seriez-vous prêt(e) à acheter d'avantage de produits locaux si leur qualité et leur disponibilité étaient améliorées ?</h4>
+            <select name="participation au développement économique">
+                <option>Oui</option>
+                <option>Nom</option>
+                <option>Peut-être</option>
+            </select>
+            <label>Selon vous, les agriculteurs et commerçants offre-t-ils de bonnes conditions de livraison à leurs clients ?</label>
+            <select name="Bonnes conditions de livraison">
+                <option>Oui</option>
+                <option>Nom</option>
+                <option>Peut-être</option>
+            </select>
+            <label>Le Gouvernement, les banques et les microfinances participent-t-ils suffisamment à des actions sociales ou environnementales (ex. : accompagnements, soutien aux communautés/coopératives) ?</label>
+            <select name="participation aux actions sociales">
+                <option>Oui</option>
+                <option>Nom</option>
+                <option>Je ne sais pas</option>
+            </select>
+            <label>Selon vous, comment l'Etat peut-il améliorer ces services de livraison ?</label>
+            <select name="évaluation des produits">
+                <option>En développant les routes </option>
+                <option>Revoir les prix du carburant</option>
+                <option>En revoyant les coût des agréments et patentes</option>
+                <option>En accompagnant les acteurs économiques Gabonais</option>
+                <op<option value= autre >Autre (précisez dans les commentaires)</option>
+            </select>
+            <label>Recommandiez-vous la consommation des produits locaux à votre entourage ?</label>
+            <select name="récommandations des produits">
+                <option>Oui</option>
+                <option>Nom</option>
+            </select>
+            <div class= form-group >
+                <label for= commentaire >Suggestions et remarques :</label>
+                <label for= commentaire >Quels sont, selon vous, les actions à mettre en place pour encourager la consommation de produits locaux ?</label>
+                <textarea id= comments  name= "Suggestions et remarques"  rows= 4  placeholder= "Entrez vos Suggestions et remarques ici!" ></textarea>
+            </div>
+
+            <p>Merci d’avoir répondu à ce sondage ! Vos réponses contribueront à améliorer le secteur agroalimentaire dans l'Ogooué-Maritime</p>
+            <div class= form-group >
+                <button type= submit >Soumettre</button>
+            </div>
+            <br><br>
+        </form>
+    </div>
+    <footer>
+        <a href="https://lionel-johnson.github.io/LionelConcept">&copy LionelConcept | 02/2025 </a>
+    </footer>
+
+</body>
+</html>
